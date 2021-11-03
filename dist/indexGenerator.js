@@ -33,7 +33,7 @@ function renderContent(person) {
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><span class="fw-bold">Role: </span> ${person.getRole()}</li>
             <li class="list-group-item"><span class="fw-bold">Employee-Id: </span>${person.getId()}</li>
-            <li class="list-group-item"><span class="fw-bold">Email: </span>${person.getEmail()}</li>
+            <li class="list-group-item"><span class="fw-bold">Email: </span><a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">${person.getEmail()}</a></li>
             <li class="list-group-item"><span class="fw-bold">Office Number: </span>${person.getPhoneNumber()}</li>
         </ul>
         <div class="card-body">
@@ -54,8 +54,9 @@ function renderContent(person) {
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><span class="fw-bold">Role: </span>${person.getRole()}</li>
             <li class="list-group-item"><span class="fw-bold">Employee-Id: </span>${person.getId()}</li>
-            <li class="list-group-item"><span class="fw-bold">Email: </span>${person.getEmail()}</li>
-            <li class="list-group-item"><span class="fw-bold">GitHub: </span> ${person.getGithub()}</li>
+            <li class="list-group-item"><span class="fw-bold">Email: </span><a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">${person.getEmail()}</a></li>
+            <li class="list-group-item"><span class="fw-bold">GitHub: </span><a
+                href="https://github.com/login">${person.getGithub()}</a></li>
         </ul>
         <div class="card-body">
             <a href="#" class="card-link">Card link</a>
@@ -75,7 +76,7 @@ function renderContent(person) {
         <ul class="list-group list-group-flush">
             <li class="list-group-item"><span class="fw-bold">Role: </span>${person.getRole()}</li>
             <li class="list-group-item"><span class="fw-bold">Employee-Id: </span>${person.getId()}</li>
-            <li class="list-group-item"><span class="fw-bold">Email: </span> ${person.getEmail()}</li>
+            <li class="list-group-item"><span class="fw-bold">Email: </span><a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">${person.getEmail()}</a></li>
             <li class="list-group-item"><span class="fw-bold">School: </span> ${person.getSchool()}</li>
         </ul>
         <div class="card-body">
