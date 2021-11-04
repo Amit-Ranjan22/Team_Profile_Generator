@@ -6,8 +6,8 @@ const Intern = require("./lib/Intern");
 const Engineer = require("./lib/Engineer");
 // const Employee = require("./lib/Employee");
 
-const message = require("./source/message");
-const indexGenerator = require("./source/indexGenerator");
+const message = require("./dist/message");
+const indexGenerator = require("./dist/indexGenerator");
 
 // const Intern = require("./lib/Intern");
 
