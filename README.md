@@ -119,7 +119,7 @@ In addition to `Employee`'s properties and methods, `Intern` will also have the 
 
 ## Screen-shot of the html generated through command-line
 
-![HTML webpage titled “My-Team” features three boxes listing employee names, titles, and other key info.](./dist/images/)
+![HTML webpage titled “My-Team” features three boxes listing employee names, titles, and other key info.](./dist/images/Team-Profile-Generator-App-Screenshot.png)
 
 ---
 
@@ -129,6 +129,6 @@ Please visit my [GitHub Page](https://github.com/Amit-Ranjan22/Team_Profile_Gene
 
 ---
 
-## Link to the walktrough video of the application
+## Link to the walk-trough video of the application
 
-Please visit my [Google-Drive](https://github.com/Amit-Ranjan22/Team_Profile_Generator.git) page to watch the video walktrough of the created application.
+Please visit my [Google-Drive](https://drive.google.com/file/d/1JgqvgXJriIwR_xn97Vpb4QN1dfVoQ-5Y/view?usp=sharing) page to watch the video walk-trough of the created application.
