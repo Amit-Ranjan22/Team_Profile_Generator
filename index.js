@@ -150,7 +150,7 @@ const teamList = (function () {
     function writeFile(data) {
         let textContent = indexGenerator(data);
         
-        fs.writeFile("./source/index.html", textContent, (err) => {
+        fs.writeFile("./dist/index.html", textContent, (err) => {
             err ? console.log(err) : console.log(message.saved);
         });
         
